@@ -1,0 +1,16 @@
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="52" id="svg_1" y="85.453125" x="153.5" stroke-width="0" stroke="#000" fill="#000000">TRATTORIA</text>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="171" id="svg_2" y="242.453125" x="32" stroke-width="0" stroke="#000" fill="#000000">ROZZA</text>
+  <text font-weight="bold" font-style="normal" xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="52" id="svg_3" y="344.453125" x="102.5" stroke-width="0" stroke="#000" fill="#000000">ITALIAN FOOD</text>
+ </g>
+</svg>
