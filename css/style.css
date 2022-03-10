@@ -217,7 +217,7 @@ height: 50px;
 .networks_content_icon2 {}
 .subfooter_container {
 width: 100%;
-background: url(../image/content_maim/subfooter.jpg) left center no-repeat;
+background: url(../image/content_maim/subfooter.jpg) left center/100% no-repeat;
 height: 450px;
 }
 .footer {
