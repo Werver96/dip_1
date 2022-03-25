@@ -224,7 +224,15 @@ height: 450px;
 background:#d6e1b9;
 min-width: 100%;
 }
-.footer_container {}
+.footer_container {
+background:url(../image/content_maim/hello_bg4.svg) no-repeat 9% 89% /100px,
+url(../image/content_maim/hello_bg3.svg) no-repeat 94% 13% /100px,
+url(../image/content_maim/hello_bg3.svg) no-repeat 1% 49% /85px,
+url(../image/content_maim/hello_bg2.svg) no-repeat 58% 11% /100px,
+url(../image/content_maim/hello_bg2.svg) no-repeat 108% 63% /100px,
+url(../image/content_maim/hello_bg1.svg) no-repeat 3% 4% /98px,
+url(../image/content_maim/hello_bg1.svg) no-repeat 93% 80% /98px;
+}
 .footer_content {
 padding: 100px;
 }
@@ -273,17 +281,101 @@ border-radius: 25px;
 }
 
 .footer_developer {
-	padding-top: 20px;
-	text-align: center;
+padding-top: 20px;
+text-align: center;
 }
 .developer_name {}
 .developer_email {}
 .developer_Telegram {}
 .developer_Instagram {}
 
+.menu{
+padding: 40px 0;
+background:#f7fdec;
+}
+.menu_content {
+text-align: center;
+}
+.menu_content_image{
+width: 60vw;
+margin-top: 50px;
+box-shadow: 0 0 15px 0 #0000006e;
+}
 
+.menu_container {}
+.menu_content_tittle {
+	font-size: 4em;
+	margin-bottom: 10px;
+}
 
+.menu_content_subtittle {
+display: flex;
+justify-content: center;
+}
+.menu_content_subtittle_link {
+	border-bottom: 1px solid #000;
+	padding-bottom: 3px;
+	margin: 0 10px;
+	font-size: 2em;
+}
+.active_link{
+	color: red;
+	border-bottom: 1px solid red;
+}
+.menu_content_images {}
+.menu_content_images_main {}
+.menu_content_image_branch {}
+.menu_content_image_chaild {}
 
+.shares {
+font-family: 'Roboto Condensed', sans-serif;
+background:url(../image/content_maim/hello_bg4.svg) no-repeat 98% 23% /110px,
+url(../image/content_maim/hello_bg3.svg) no-repeat 2% 8% /115px,
+url(../image/content_maim/hello_bg5.svg) no-repeat 89% 64% /105px,
+url(../image/content_maim/hello_bg2.svg) no-repeat -1% 89% /116px,
+url(../image/content_maim/hello_bg5.svg) no-repeat 1% 57% /88px,
+url(../image/content_maim/hello_bg1.svg) no-repeat 72% 89% /102px,
+#f7fdec;
+}
+.shares_container {}
+.container {}
+.shares_content {
+	text-align: center;
+}
+.shares_tittle {
+	padding: 40px 0;
+	font-size: 4em;
+}
+.shares_body {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.shares__body_wrapper {
+	margin: 5px;
+	background:#d6e1b9;
+}
+.shares__body_wrapper img{
+	width: 100%;
+}
+.shares_text{
+	padding: 40px;
+}
+.shares_text h1{
+	font-size: 3em;
+}
+.shares_text p{
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+.shares_text a{
+	padding: 5px 30px;
+	background: #717761;
+
+	color: white;
+	position: relative;
+	top: 20px;
+	font-size: 2em;
+}
 @media(max-width: 1200px){
 .container {
 max-width: 970px;
@@ -322,6 +414,14 @@ width: auto;
 }
 .subfooter_container {
 background: url(../image/content_maim/subfooter.jpg) center center /105% no-repeat;
+}
+.footer_container {
+background:url(../image/content_maim/hello_bg4.svg) no-repeat 9% 89% /100px,
+url(../image/content_maim/hello_bg3.svg) no-repeat 96% 13% /100px,
+url(../image/content_maim/hello_bg2.svg) no-repeat 55% 10% /100px,
+url(../image/content_maim/hello_bg2.svg) no-repeat 108% 63% /100px,
+url(../image/content_maim/hello_bg1.svg) no-repeat 2% 4% /98px,
+url(../image/content_maim/hello_bg1.svg) no-repeat 86% 94% /98px;
 }
 }
 @media(max-width: 767px){
@@ -400,6 +500,7 @@ height: 50vw;
 }
 .footer_content{
 padding: 10px;
+padding-top: 50px;
 }
 iframe{
 width: 75vw;
@@ -412,6 +513,27 @@ width: 100%;
 float: none;
 }
 
+.footer_container {
+background:url(../image/content_maim/hello_bg4.svg) no-repeat 5% 39% /61px,
+url(../image/content_maim/hello_bg3.svg) no-repeat right -31px top 51% /80px,
+url(../image/content_maim/hello_bg3.svg) no-repeat 7% 14% /70px,
+url(../image/content_maim/hello_bg2.svg) no-repeat right -15px top 21% /77px,
+url(../image/content_maim/hello_bg4.svg) no-repeat right 10px top 98% /84px,
+url(../image/content_maim/hello_bg1.svg) no-repeat 96% 2% /78px,
+url(../image/content_maim/hello_bg1.svg) no-repeat -15% 62% /95px;
+}
+
+.shares__body_wrapper{
+	grid-column: 1/3;
+}
+.shares {
+background:url(../image/content_maim/hello_bg4.svg) no-repeat -20px 41px /91px,
+url(../image/content_maim/hello_bg5.svg) no-repeat right -15px top 32px /88px,
+#f7fdec;
+}
+.shares_text h1{
+	font-size: 2.5em;
+}
 }
 @media(max-width: 320px){
 .about_cotnent_tittle, .about_cotnent_text{
